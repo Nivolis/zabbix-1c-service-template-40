@@ -3,9 +3,7 @@
 Создание службы RAS
 
 sc create "1C:Enterprise 8.3.13.1644 RAS" binpath= """"C:\Program Files\1cv8\8.3.13.1644\bin\ras.exe""" cluster --service --port=1545 localhost:1540" obj= ".\USR1Cv8" password= "!p@sswOrd" start= auto
-
 sc config "1C:Enterprise 8.3.13.1644 RAS" DisplayName= "1C:Enterprise 8.3.13.1644 RAS"
-
 sc description "1C:Enterprise 8.3.13.1644 RAS" "1C:Enterprise 8.3.13.1644 RAS"
 
 Удаление службы RAS
